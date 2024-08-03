@@ -1738,7 +1738,7 @@ border-radius: 50%; }
     border-top: 1px solid #383838;
     padding: 50px 15px 30px;
     position: relative;
-    *zoom: 1; }
+    zoom: 1; }
     .site-footer .container:after {
       content: " ";
       clear: both;
