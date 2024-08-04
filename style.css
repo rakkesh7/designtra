@@ -1369,7 +1369,8 @@ border-radius: 50%; }
     .hero-slider .slides li {
       min-height: 680px;
       background-size: cover;
-      background-position: center center; }
+      background-position: center center;
+     }
   .hero-slider .slide-title {
     font-size: 36px;
     font-size: 2.5714285714em;
@@ -1421,7 +1422,7 @@ border-radius: 50%; }
 .fullwidth-block {
   padding: 50px 0; }
   .fullwidth-block.image-block {
-    min-height: 300px; }
+    height: 300px; }
 
 .section-title {
   font-size: 36px;
@@ -1792,7 +1793,26 @@ border-radius: 50%; }
               transform: rotate(-45deg);
       bottom: -5px;
       right: -5px; }
-      .site-description{
-        
-      
+      .map{
+      width: 800px;
+        height:400px;
+      }
+      @media (max-width: 768px){
+        .map{
+          width: 100%;
+        }
+        .abtimg{
+          width: 100%;
+        }
+        .fullwidth-block.image-block {
+         height: 400px;
+        width: 100%;
+        }
+        .hero-slider .slide-title {
+          font-size:20px;
+          
+          margin-top: 300px;
+          letter-spacing: 3px; 
+
+        }
       }
