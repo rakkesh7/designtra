@@ -1288,7 +1288,7 @@ border-radius: 50%; }
   #branding .site-description {
     font-size: 11px;
     font-size: 0.7857142857em;
-    color: #585858; }
+    color: white; }
 
 .main-navigation {
   float: right; }
@@ -1792,3 +1792,7 @@ border-radius: 50%; }
               transform: rotate(-45deg);
       bottom: -5px;
       right: -5px; }
+      .site-description{
+        
+      
+      }
