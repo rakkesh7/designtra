@@ -168,9 +168,10 @@ select {
 button,
 html input[type="button"],
 input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer; }
+input[type="submit"]
+ {
+-webkit-appearance: button;
+cursor: pointer; }
 
 button[disabled],
 input[disabled] {
@@ -1757,6 +1758,9 @@ border-radius: 50%; }
     padding: 50px 15px 30px;
     position: relative;
     zoom: 1; }
+    .site-footer .pull-right {
+      float: right; /* Ensure float right is being applied */
+    }
     .site-footer .container:after {
       content: " ";
       clear: both;
@@ -1814,9 +1818,6 @@ border-radius: 50%; }
       width: 800px;
         height:400px;
       }
-      .contact-detail{
-        
-      }
       @media (max-width: 768px){
         .map{
           width: 100%;
@@ -1836,3 +1837,4 @@ border-radius: 50%; }
 
         }
       }
+    

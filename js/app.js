@@ -23,23 +23,7 @@
 			controlNav: true,
 			directionNav: false,
 			animation: "slide"
-		});
-
-	    if( $(".map").length ) {
-			$('.map').gmap3({
-				map: {
-					options: {
-						maxZoom: 14 
-					}  
-				},
-				marker:{
-					address: "40 Sibley St, Detroit",
-				}
-			},
-			"autofit" );
-	    	
-	    }
-	});
+		});});
 
 	$(window).load(function(){
 		var $container = $('.filterable-items');
