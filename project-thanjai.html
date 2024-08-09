@@ -1,4 +1,4 @@
-!DOCTYPE html>
+
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -21,6 +21,9 @@
 		<script src="js/ie-support/html5.js"></script>
 		<script src="js/ie-support/respond.js"></script>
 		<![endif]-->
+
+  
+
 
 	</head>
 
@@ -61,14 +64,15 @@
 
 						<div class="row">
 							<div class="col-md-5">
-								<div class="project-images">
-									<img src="dummy/thanjai-photo1(470x470).png" alt="">
+								 <div class="project-images">
+                                <img class="main-img" id="large-photo" src="dummy/thanjai-photo1(470x470).png" alt="Large Photo">
 
-									<div class="thumbs">
-										<a href="#"><img src="dummy/thanjai-photo2(132x132).png" alt="#"></a>
-										<a href="#"><img src="dummy/thanjai-photo3(132x132).png" alt="#"></a>
-										<a href="#"><img src="dummy/thanjai-photo4(132x132).png" alt="#"></a>
-									</div>
+                                <div class="thumbs">
+                                    
+                                    <img class="thumbnail" data-large="dummy/thanjai-photo2(470x470).png" data-small="dummy/thanjai-photo2(132x132).png" src="dummy/thanjai-photo2(132x132).png" alt="Thumbnail 2">
+                                    <img class="thumbnail" data-large="dummy/thanjai-photo3(470x470).png" data-small="dummy/thanjai-photo3(132x132).png" src="dummy/thanjai-photo3(132x132).png" alt="Thumbnail 3">
+                                    <img class="thumbnail" data-large="dummy/thanjai-photo4(470x470).png" data-small="dummy/thanjai-photo4(132x132).png" src="dummy/thanjai-photo4(132x132).png" alt="Thumbnail 4">
+                                </div>
 								</div>
 							</div>
 							<div class="col-md-7">
@@ -121,6 +125,12 @@
 				</div> <!-- .container -->
 			</footer> <!-- .site-footer -->
 		</div>
+
+
+
+		<script>
+			 
+		</script>
 
 		<script src="js/jquery-1.11.1.min.js"></script>
 		<script src="js/plugins.js"></script>

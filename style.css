@@ -1711,6 +1711,7 @@ border-radius: 50%; }
       width: 100%; } }
   .project-item img {
     max-width: 100%;
+    border-radius: 20px;
     margin-bottom: 20px;
     display: block; }
   .project-item .project-title {
@@ -1818,6 +1819,22 @@ border-radius: 50%; }
       width: 800px;
         height:400px;
       }
+      #large-photo{
+        border: 2px solid transparent;
+        border-radius: 20px;
+      }
+     
+          .thumbs img {
+              cursor: pointer;
+              border: 2px solid transparent;
+        margin: 5px;
+        border-radius: 20px;
+              width: 132px; /* Ensure thumbnail size is consistent */
+              height: auto;
+          }
+          .thumbs img.active {
+              border-color: #007bff;
+          }
       @media (max-width: 768px){
         .map{
           width: 100%;
