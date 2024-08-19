@@ -70,35 +70,4 @@
 	});
 
 
-	document.addEventListener('DOMContentLoaded', function() {
-		var thumbnails = document.querySelectorAll('.thumbnail');
-		var largePhoto = document.getElementById('large-photo');
-		var previousThumbnail = null;
-		var previousLargeSrc = largePhoto.getAttribute('src');
-
-		thumbnails.forEach(function(thumbnail) {
-			thumbnail.addEventListener('click', function() {
-				var newLargeSrc = this.getAttribute('data-large');
-				var newSmallSrc = this.getAttribute('data-small');
-
-				if (previousThumbnail) {
-					// Update the previously clicked thumbnail with the previous large image
-					previousThumbnail.setAttribute('src', previousLargeSrc);
-					previousThumbnail.classList.remove('active');
-				}
-
-				// Update the large photo with the new large image
-				largePhoto.setAttribute('src', newLargeSrc);
-
-				// Update the clicked thumbnail to show the previous large photo
-				this.setAttribute('src', previousLargeSrc);
-				this.classList.add('active');
-
-				// Update previous state for the next interaction
-				previousThumbnail = this;
-				previousLargeSrc = newLargeSrc;
-			});
-		});
-	});
-
 })(jQuery, document, window);

@@ -1835,6 +1835,13 @@ border-radius: 50%; }
           .thumbs img.active {
               border-color: #007bff;
           }
+
+
+      
+
+
+
+
       @media (max-width: 768px){
         .map{
           width: 100%;
