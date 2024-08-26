@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" type="x-icon" href="images/logofav.png" sizes="48x48">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>DesignTRA</title>
+
+		<!-- Loading third party fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+		<style>
+			.image-box{
+				   width:100% ;
+				   position: relative;
+				   text-align: center;
+				   
+				 }
+				.image-box input[type="radio"]{
+				  width:132px;
+				  height: 132px;
+				  display: inline-block;
+				  border: 1px solid #555;
+				  border-radius: 20px;
+				  outline: none;
+				  appearance: none;
+				  margin: 10px;
+				 cursor: pointer;
+				box-shadow: 0 0 2px yellow;
+				-webkit-transition: all 0.7s ease-in-out;
+				-moz-transition: all 0.7s ease-in-out; 
+					-ms-transition: all 0.7s ease-in-out;
+				-o-transition: all 0.7s ease-in-out;
+				-webkit-transition: all 0.7s ease-in-out;
+	  
+				}
+				.image-box input[type="radio"]:hover{
+				  transition: scale(1.1);
+				  box-shadow: 0 0 5px yellow;
+				}
+				#img-01{
+				  background-image: url(dummy/shiva-residency\ photo1\(132x132\).png);
+				  background-size: cover;
+				}
+				#img-02{
+				  background-image: url(dummy/shiva-residency\ photo2\(132x132\).png);
+				  background-size: cover;
+				}
+				#img-03{
+				  background-image: url(dummy/shiva-residency\ photo3\(132x132\).png);
+				  background-size: cover;
+				}
+				#img-04{
+				  background-image: url(dummy/shiva-residency\ photo4\(132x132\).png);
+				  background-size: cover;
+				}
+			   .image-bg{
+				width: 470px;
+				height: 470px;
+				margin: 0 auto 20px auto;
+				border-radius: 20px;
+				border: 1px solid #212121;
+				box-shadow: 0 0 5px yellow;
+			   }
+			   #img-01:checked ~ .image-bg {
+				background-image: url('dummy/shiva-residency\ photo1(470x470).png');
+				background-size: cover;
+				}
+				#img-02:checked ~ .image-bg {
+				  background-image: url('dummy/shiva-residency\ photo2(470x470).png');
+				  background-size: cover;
+				  }
+				  #img-03:checked ~ .image-bg {
+					background-image: url('dummy/shiva-residency\ photo3(470x470).png');
+					background-size: cover;
+					}
+					#img-04:checked ~ .image-bg {
+					  background-image: url('dummy/shiva-residency\ photo4(470x470).png');
+					  background-size: cover;
+					  }
+					  @media (max-width: 768px){
+					.image-bg{
+						width: 370px;
+					height: 370px;
+					}
+				}
+				
+	  </style>
+
+</head>
+
+
+	<body>
+		
+		<div id="site-content">
+			<div class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">
+						<img src="images/LOGO[1].png" alt="" class="logo">
+						<div class="logo-text">
+							<h1 class="site-title">Designtra</h1>
+							<small class="site-description">Transforming Ideas into Iconic Spaces</small>
+						</div>
+					</a> <!-- #branding -->
+
+					<!-- Default snippet for navigation -->
+					<div class="main-navigation">
+						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="about.html">About</a></li>
+							<li class="menu-item current-menu-item"><a href="project.html">our Projects</a></li>
+							<li class="menu-item"><a href="contact.html">Contact</a></li>
+						</ul> <!-- .menu -->
+					</div> <!-- .main-navigation -->
+
+					<div class="mobile-navigation"></div>
+				</div>
+			</div> <!-- .site-header -->
+
+			<main class="main-content">
+				
+				<div class="page">
+					<div class="container">
+						<a href="project.html" class="button-back"><img src="images/arrow-back.png" alt="" class="icon">Back to the projects</a>
+
+						<div class="row">
+							<div class="col-md-5">	
+
+									<div class="image-box">
+									
+										<input type="radio" id="img-01" name="image" checked>
+										<input type="radio" id="img-02" name="image">
+										<input type="radio" id="img-03" name="image">
+										<input type="radio" id="img-04" name="image">
+		
+										<div class="image-bg"></div>
+									</div>
+							</div>
+							<div class="col-md-7">
+								<div class="project-detail">
+									<h2 class="project-title">Interior Design GKM Impex pvt. ltd</h2>
+									<p align="justify">We are thrilled to share our very first interior design project for M/s. GKM Impex Pvt. Ltd. This commercial space project marks significant milestone for Designtra. We embark on our journey to transform commercial spaces. We seek to utilize innovative and personalized design solutions.</p>
+									<h3>Project Highlights:</h3>
+									<p align="justify">For this project we focused on creating dynamic and functional commercial environment that reflects the client’s brand identity and operational needs. Key features include: Modern Design Elements, incorporating sleek contemporary aesthetics with high-quality materials and finishes. Optimized Space Planning ensures efficient use of space. This facilitates workflow and enhances productivity. Custom Furnishings involve designing bespoke furniture pieces that align with the client’s vision and brand ethos. Lighting Solutions implement innovative lighting designs. They create an inviting and professional atmosphere.</p>
+									<h3>Project Overview: </h3>
+									<p align="justify">For M/s. GKM Impex Pvt. Ltd. we transformed traditional commercial space into a modern, functional and aesthetically pleasing environment. Our design approach focused on optimizing space utilization. We enhanced workflow efficiency. We created an inviting atmosphere for both employees and clients. We started by understanding specific requirements and aspirations of M/s. GKM Impex Pvt. Ltd. Through close collaboration and meticulous planning we developed a design that meets their functional needs. This design also inspires and delights everyone who steps into space.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- .page -->
+
+			</main> <!-- .main-content -->
+
+			<footer class="site-footer">
+				<div class="container">
+					<div class="pull-left">
+
+						<address>
+							<strong>Company Name</strong>
+							<p>9,200ft Bypass Road, Om Sakthi Nagar,Vanagaram,Chennai,India 600095</p>
+						</address>
+<br>
+						<a href="tel:+919791882220" class="phone"><i class="fa-solid fa-phone"></i>+91-9791882220</a>
+					</div> <!-- .pull-left -->
+					<div class="pull-right">
+
+						<div class="social-links">
+
+							<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="https://www.instagram.com/designtra_?igsh=MTRiemFyYXdscjl1Mw%3D%3D"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+							<a href="mailto:connectwithdesigntra@outlook.com" target="_blank"><img src="images/icon-envelope.png" class="icon"></a>
+							<a href=" https://wa.me/+919342196668?text=Hello!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+						</div>
+
+					</div> <!-- .pull-right -->
+
+					<center>	<div class="colophon">Copyright &copy 2020 DesignTRA. All rights reserved.</div></center>
+				</div> <!-- .container -->
+			</footer> <!-- .site-footer -->
+		</div>
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
