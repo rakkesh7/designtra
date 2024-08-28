@@ -211,9 +211,14 @@ table {
 /*
  * Global Styles
  */
+ 
 body {
   position: relative;
   background-color: #212121;
+  background-image: url(images/logo\ new.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   color: #d3d3d3;
   font-family: "Roboto Condensed", "Open Sans", sans-serif;
   font-size: 14px;
@@ -1857,10 +1862,11 @@ border-radius: 50%; }
         }
         .hero-slider .slide-title {
           font-size:20px;
-          
           margin-top: 300px;
-          letter-spacing: 3px; 
-
+          letter-spacing: 3px;
+        }
+        body{
+          background-image: url(images/logo\ new\(mobile\).png);
         }
       }
     
